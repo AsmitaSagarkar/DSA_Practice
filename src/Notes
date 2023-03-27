@@ -1,0 +1,41 @@
+Operators in java :-
+1:- Increment and Decrement Operators
+Increment operators are the operators who incrments the value and Decrement operators are the operators who decrements the value
+They are of two types :
+Post increment : - which first prints the value and then increment or decrements its value
+ex - int a = 5;
+System.out.println(a++); //output = 5;
+Pre increment :-which first increment or decrement the value and then print it
+ex - int a =5;
+System.out.println(++a); //output = 6;
+
+2:-Relational Operator = <,>,<=,>=,==
+
+3:-Condiotional Operator = &&,||,!=
+
+3:-BitWise Operator = it will convert all the value in bit . BitWise Operator are :- bitwise or(|) and bitwise and(&)
+for ex -   //bitwise value
+int a = 5; //101
+int b = 6; //110
+int k = a|b//111 //output = 7
+// / - bitwise OR
+
+int a = 5; //101
+int b = 6; //110
+int k = a&b//100
+// / - bitwise AND
+
+4:- Left Shift And Right Shift Operator : left shift operator - << , right shift operator - >>
+Left shift will add the given number of zeroes at the end
+ex =
+int n = 4; // binary form of 4 = 100
+n=n<<2; it means add 2 zeroes at the end of 100 i.e 10000 ,10000 is the binary form of 16 so output will be 16
+
+Right shift will remove the given number of zeroes from the end
+ex =
+int n = 64; // binary form of 4 = 1000000
+n=n>>4 // output : 4 ie 100
+
+
+
+
