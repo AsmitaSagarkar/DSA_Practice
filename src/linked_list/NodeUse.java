@@ -64,7 +64,7 @@ public class NodeUse {
         {
             System.out.print(head.data + " "); // now here ,head can access the next and data part of the node
             head = head.next; //here we are storing the address of next node ao that link can be created
-        }*/
+        */
         /*secont way: by creating a print function and calling it*/
         print(head);
 
