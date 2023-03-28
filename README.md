@@ -1,1 +1,1 @@
-# Dsa-Practice : This repository includes my dsa practice questions
+# DSA_Practice : This repository includes my DSA practice questions
