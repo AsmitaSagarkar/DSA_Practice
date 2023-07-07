@@ -1,22 +1,24 @@
 package TCS_NQT;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class Non_Repeating {
 
     public static void nonRepeating(int []arr){
-        Arrays.sort(arr);
-        int count = 1;
-        for (int i = 0; i < arr.length-1; i++) {
-
-            if (arr[i]==arr[i+1]){
-                count = count+1;
-
-            }
-            if (count==1){
-                System.out.print(arr[i]+ " ");
+        HashMap<Integer,Integer> map = new HashMap<>();
+        for (int i:arr){
+            if (map.get(i)==null){
+                map.put(i,1);
+            }else {
+                map.put(i,map.get(i)+1);
             }
 
+        }
+        for (Map.Entry<Integer,Integer> e :map.entrySet()){
+            if (e.getValue()==1){
+                System.out.print(e.getKey()+ " ");
+            }
+            ;
         }
     }
     public static void main(String[] args) {
